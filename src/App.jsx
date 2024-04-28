@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <div className="bg-gray-100 w-full min-h-screen p">
-      <div className="bg-gray-50 min-h-screen w-full md:w-[75%] mx-auto py-3 px-5">
+      <div className="bg-gray-50 min-h-screen w-full md:w-[75%] mx-auto py-3 px-5 border-x">
         <Navbar />
         <div className="container mx-auto px-4 py-8">
           <Routes>
