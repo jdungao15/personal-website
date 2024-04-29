@@ -22,7 +22,7 @@ const TypingAnimation = () => {
         fontSize: "2em",
         display: "inline-block",
         fontWeight: "400",
-        color: "#333",
+        color: "#374151",
       }}
     />
   );
