@@ -1,4 +1,28 @@
 const INFO = {
+  education: [
+    {
+      title: "Certification in Web Development at Fullstack Academy",
+      location: "University of California, Los Angeles",
+      date: "August 2023 - April 2024",
+      description:
+        "Graduated from Fullstack Academy with a certification in Web Development. The comprehensive curriculum covered full-stack JavaScript, including Node.js, Express.js, React.js, PostgreSQL, HTML/CSS, and more. The program emphasized hands-on learning, and I built several projects to apply and reinforce what I learned. This rigorous training has equipped me with a strong foundation in web development and the ability to build complex web applications.",
+    },
+    {
+      title: "Associate Degree in Computer Science at Saint Peter University",
+      location: "Saint Peter University, Jersey City, NJ",
+      date: "September 2016 - April 2018", // replace with your actual dates
+      description:
+        "Graduated with an Associate Degree in Computer Science from Saint Peter University. The comprehensive curriculum covered a range of subjects including Java, JavaScript, HTML, CSS, Calculus, Linear Algebra, and Data Structures. The program emphasized both theoretical understanding and practical application, equipping me with a strong foundation in computer science and programming. This rigorous training has prepared me to tackle complex problems and build efficient solutions.",
+    },
+    {
+      title: "Online Tech Courses at Zero To Mastery",
+      location: "Zero To Mastery, Online",
+      date: "Present", // replace with your actual dates
+      description:
+        "Completed several online tech courses at Zero To Mastery. The curriculum covered a wide range of modern technologies and best practices in the industry. The courses emphasized hands-on learning, and I built several projects to apply and reinforce what I learned. This training has equipped me with a broad set of skills and the ability to quickly learn and adapt to new technologies.",
+    },
+  ],
+
   projects: [
     {
       title: "Zenkai",
@@ -37,6 +61,7 @@ const INFO = {
       icons: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
       ],
     },
     {
@@ -48,7 +73,21 @@ const INFO = {
       icons: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+
         // add other relevant icons
+      ],
+    },
+    {
+      title: "BookBuddy",
+      description:
+        "BookBuddy is a simple library checkout application built with React and CSS. It uses an API to fetch books and allows users to add books to a cart using state management, providing a seamless user experience. The application also features a persistent cart functionality implemented using global context, ensuring that user selections are maintained across sessions. The combination of these technologies results in a user-friendly, interactive, and responsive web application.",
+      image: "https://i.imgur.com/Rb40fyR.png", // replace with your project's image URL
+      link: "https://bookbuddy12.netlify.app/", // replace with your project's link
+      icons: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
       ],
     },
   ],

@@ -1,20 +1,21 @@
 import avatar from "../assets/avatar.png";
 import TypingAnimation from "../components/TypingAnimation";
 import AllProjects from "../components/AllProjects";
+import Timeline from "../components/Timeline";
+import Work from "../components/Work";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <main className="px-10">
+    <main className="px-5">
       <section className="flex flex-col md:flex-row justify-between mt-10">
         <div className="w-full md:w-1/4 flex justify-center items-center border-teal-300 border-2 rounded-lg skew-y-3 p-2 mb-8 md:mb-0 md:order-2">
           <img src={avatar} alt="avatar" className="mx-auto" />
         </div>
         <div className="w-full md:w-1/2 space-y-10 md:order-1">
           <TypingAnimation />
-          <header className="text-4xl md:text-6xl"></header>
           <p className="text-lg text-left font-light leading-loose text-gray-600">
             I am a full-stack web developer with a passion for building web
             applications. I have experience in building web applications using
@@ -51,8 +52,12 @@ const Home = () => {
         </div>
       </section>
       <section className="mt-10">
-        <header className="text-3xl text-center">Projects</header>
+        <header className="text-2xl text-center">Projects</header>
         <AllProjects />
+      </section>
+      <section className="mt-10 flex justify-between">
+        <Timeline />
+        <Work />
       </section>
     </main>
   );

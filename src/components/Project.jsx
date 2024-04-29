@@ -29,7 +29,7 @@ const Project = ({ project }) => {
           <a
             target="_blank"
             href={link}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-500 hover:text-gray-600"
+            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-500 hover:text-teal-500"
           >
             <FaLink className="mr-2" />
             View Project
