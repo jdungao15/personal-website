@@ -2,7 +2,7 @@ import { FaBriefcase } from "react-icons/fa";
 
 const Work = () => {
   return (
-    <div className="max-w-sm bg-white border rounded-lg shadow transition duration-300 ease-in-out p-6">
+    <div className="max-w-sm bg-white border rounded-lg shadow transition duration-300 ease-in-out p-6 w-full md:w-auto">
       <h5 className="mb-2 text-lg font-semi tracking-tight text-gray-600 dark:text-white inline-flex items-center">
         <FaBriefcase className="inline-block mr-4 text-gray-500" />
         Work

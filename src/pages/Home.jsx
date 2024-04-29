@@ -55,7 +55,7 @@ const Home = () => {
         <header className="text-2xl text-center">Projects</header>
         <AllProjects />
       </section>
-      <section className="mt-10 flex justify-between">
+      <section className="mt-10 flex flex-col md:flex-row justify-between">
         <Timeline />
         <Work />
       </section>
