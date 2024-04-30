@@ -10,11 +10,11 @@ import { FaMailBulk } from "react-icons/fa";
 const Home = () => {
   return (
     <main className="px-5">
-      <section className="flex flex-col md:flex-row justify-between mt-10">
-        <div className="w-full md:w-1/4 flex justify-center items-center border-teal-300 border-2 rounded-lg skew-y-3 p-2 mb-8 md:mb-0 md:order-2">
+      <section className="flex flex-col lg:flex-row justify-between mt-10">
+        <div className="w-full lg:w-1/4 flex justify-center items-center border-teal-300 border-2 rounded-lg skew-y-3 p-2 mb-8 lg:mb-0 lg:order-2">
           <img src={avatar} alt="avatar" className="mx-auto" />
         </div>
-        <div className="w-full md:w-1/2 space-y-10 md:order-1">
+        <div className="w-full lg:w-1/2 space-y-10 lg:order-1">
           <TypingAnimation />
           <p className="text-lg text-left font-light leading-relaxed text-gray-600">
             I am a full-stack web developer with a passion for building web
@@ -55,7 +55,7 @@ const Home = () => {
         <header className="text-2xl text-center">Projects</header>
         <AllProjects />
       </section>
-      <section className="mt-20 flex flex-col md:flex-row justify-between">
+      <section className="mt-20 flex flex-col lg:flex-row justify-between">
         <Timeline />
         <Work />
       </section>
