@@ -12,7 +12,7 @@ const AllProjects = () => {
             <Project key={index} project={project} />
           ))}
         </div>
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center mt-10">
           <Link
             to="/projects"
             className="inline-flex items- px-4 py-2 text-sm font-medium text-center text-gray-500 bg-gray-200 hover:bg-gray-300 rounded-lg"

@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className="w-full md:w-1/2 space-y-10 md:order-1">
           <TypingAnimation />
-          <p className="text-lg text-left font-light leading-loose text-gray-600">
+          <p className="text-lg text-left font-light leading-relaxed text-gray-600">
             I am a full-stack web developer with a passion for building web
             applications. I have experience in building web applications using
             React, Node.js, Express, and PostgreSQL. I recently graduated from
@@ -55,7 +55,7 @@ const Home = () => {
         <header className="text-2xl text-center">Projects</header>
         <AllProjects />
       </section>
-      <section className="mt-10 flex flex-col md:flex-row justify-between">
+      <section className="mt-20 flex flex-col md:flex-row justify-between">
         <Timeline />
         <Work />
       </section>
