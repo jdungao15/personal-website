@@ -17,15 +17,16 @@ const About = () => {
           innovative and engaging projects.
         </h1>
         <p className="text-lg mt-6 lg:mt-10 text-left text-gray-600 leading-relaxed font-light">
-          I&apos;ve worked on variety of projects over the years, and I&apos;m
-          proud of the progress I&apos;ve made.I&apos;m really into
-          problem-solving, making cool stuff with technology, and exploring new
-          possibilities. I love tackling challenges and turning them into
-          opportunities for growth. Whether it&apos;s coding, finding smart
-          solutions, or keeping up with the latest tech trends, I&apos;m super
-          enthusiastic about it. I&apos;m always looking for new projects to
-          work on, so if you&apos;re interested in collaborating, feel free to
-          reach out!
+          I take great pride in the diverse range of projects I have worked on
+          throughout my career. With a strong passion for problem-solving and a
+          keen interest in cutting-edge technology, I thrive on tackling complex
+          challenges and transforming them into opportunities for growth. I am
+          committed to delivering high-quality results, staying up-to-date with
+          the latest industry trends, and collaborating with like-minded
+          professionals to drive innovation. If you have any exciting projects
+          that align with my skills and interests, I would be delighted to
+          explore them further and contribute my expertise to help bring your
+          ideas to life.
         </p>
         <div className="mt-8 lg:mt-20">
           <h2 className="text-xl text-center mb-4 lg:mb-6">
