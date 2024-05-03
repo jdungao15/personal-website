@@ -23,7 +23,7 @@ const Contact = () => {
                 would like to discuss potential collaborations, please feel free
                 to reach out to me via email at{" "}
                 <a
-                  className="underline decoration-1 decoration-indigo-500 underline-offset-4"
+                  className="underline decoration-1 decoration-indigo-500 underline-offset-4 font-normal"
                   href="mailto:johnmiguel.dungao@gmail.com"
                 >
                   johnmiguel.dungao@gmail.com
