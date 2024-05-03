@@ -1,9 +1,9 @@
 import { FaLink } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-
+import { useLocation } from "react-router-dom";
 const Project = ({ project }) => {
   const { title, description, image, link, icons } = project;
-
+  const location = useLocation();
   const truncate = (str, maxLength) => {
     if (str.length <= maxLength) {
       return str;
@@ -24,7 +24,9 @@ const Project = ({ project }) => {
           {title}
         </h5>
         <p className="font-normal text-gray-500 dark:text-gray-400">
-          {truncate(description, 150)}
+          {location.pathname === "/projects"
+            ? description
+            : truncate(description, 150)}
           <Link className="ml-1 hover:text-teal-500" to="/projects">
             read more
           </Link>
