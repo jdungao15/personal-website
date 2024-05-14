@@ -1,4 +1,4 @@
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/avatar.jpg";
 import TypingAnimation from "../components/TypingAnimation";
 import AllProjects from "../components/AllProjects";
 import Timeline from "../components/Timeline";
@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <main className="px-5">
       <section className="flex flex-col lg:flex-row justify-between mt-10">
-        <div className="w-full lg:w-1/4 flex justify-center items-center border-teal-300 border-2 rounded-lg skew-y-3 p-2 mb-8 lg:mb-0 lg:order-2">
-          <img src={avatar} alt="avatar" className="mx-auto" />
+        <div className="w-full lg:w-[25%] flex justify-center items-center bg-auto  lg:mb-0 lg:order-2">
+          <img src={avatar} alt="avatar" className="mx-auto rounded-3xl" />
         </div>
         <div className="w-full lg:w-1/2 space-y-10 lg:order-1">
           <TypingAnimation />
