@@ -30,7 +30,7 @@ const About = () => {
         </p>
         <div className="mt-8 lg:mt-20">
           <h2 className="text-xl text-center mb-4 lg:mb-6">
-            My Skills and Technologies
+            Skills and Technologies
           </h2>
           <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {INFO.skills.map((skill, index) => (
@@ -77,7 +77,7 @@ const About = () => {
           <a
             className="cursor-pointer"
             download
-            href="../assets/johnmiguel.dungao-resume.pdf"
+            href="../assets/JohnMiguelDungao-resume.pdf"
           >
             <FaFileCsv className="inline-block mr-4 text-gray-500" /> Download
             Resume

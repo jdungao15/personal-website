@@ -59,7 +59,7 @@ const Contact = () => {
               <a
                 className="cursor-pointer flex items-center"
                 download
-                href="../assets/johnmiguel.dungao-resume.pdf"
+                href="../assets/JohnMiguelDungao-resume.pdf"
               >
                 <FaFileCsv className="mr-4 text-gray-500 text-2xl" />
                 <span>Download Resume</span>
